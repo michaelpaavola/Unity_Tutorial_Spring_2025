@@ -4,7 +4,17 @@
   * Print them out in a single sentence.
 */
 
+Console.WriteLine("Enter your name: ");
+string nameInput = Console.ReadLine();
 
+Console.WriteLine("Enter your Age: ");
+int ageInput = int.Parse(Console.ReadLine());
+
+string name = "Mike";
+int age = 30;
+float height = 5.10f;
+
+Console.Write ($"My name is {name}. I am {age} years old, and my height is {height} feet tall.");
 
 
 
